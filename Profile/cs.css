@@ -163,4 +163,65 @@ body {
       flex-direction: column;
     }
   }
-  
+  /* Footer Styles */
+footer {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-container div {
+  margin: 20px 0;
+}
+
+.footer-about, .footer-links, .footer-social {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-about p, .footer-bottom p {
+  font-size: 14px;
+  color: #bdc3c7;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: #ecf0f1;
+}
+
+.footer-links ul li a:hover {
+  color: #3498db;
+}
+
+.footer-social a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-social a:hover {
+  color: #3498db;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  border-top: 1px solid #34495e;
+  padding-top: 10px;
+}
