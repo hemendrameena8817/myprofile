@@ -1,0 +1,166 @@
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Navbar styling */
+  .Navbar_navRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: white;
+  }
+  
+  .Navbar_box {
+    fill: white;
+    cursor: pointer;
+  }
+  
+  .Navbar_navLinks{
+    display: flex;
+    gap: 20px;
+  }
+  
+  .Navbar_navLinks a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .Navbar_navLinks a:hover {
+    color: #ff9800;
+  }
+  
+  .Navbar_active__SSF2N {
+    color: #ff9800;
+  }
+  
+  .Navbar_animatedButton__8mab_ {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Navbar_animatedButton__8mab_:hover {
+    background-color: #e68900;
+  }
+  
+  /* Form styling */
+  .form-login {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .form-login h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    margin-bottom: 15px;
+  }
+  
+  .input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn button {
+   
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  
+  /* Hero Section */
+  .HeroSection_heroContainer__Go4NI {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #ecf0f1;
+  }
+  
+  .HeroSection_heading__dALJp {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  .HeroSection_highlight__2AUmO {
+    color: #e74c3c;
+    font-weight: bold;
+  }
+  
+  .HeroSection_paragraph__W1YmY {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .HeroSection_buttons__5ITT2 {
+   
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    gap: 20px;
+  }
+  
+  .HeroSection_hireButton__ChXKP,
+  .HeroSection_contactButton__nRL9S {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+
+  HeroSection_contactButton__nRL9S
+  /* Footer styling */
+  footer {
+    padding: 20px;
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Media Queries for responsiveness */
+  @media (max-width: 768px) {
+    .Navbar_navLinks__TJ3Vh {
+      display: none;
+    }
+  
+    .Navbar_hamburger__FVK1L {
+      display: block;
+    }
+  
+    .HeroSection_heading__dALJp {
+      font-size: 28px;
+    }
+  
+    .HeroSection_buttons__5ITT2 {
+      flex-direction: column;
+    }
+  }
+  
